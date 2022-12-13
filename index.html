@@ -11,61 +11,14 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="stylesheet" href="styles.css" />
 
     <title>Frontend Mentor | QR code component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      body {
-        background-color: hsl(212, 45%, 89%);
-        font-family: "Outfit";
-      }
-      .container {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-      }
-      .qr-container {
-        background: white;
-        border-radius: 25px;
-        width: 25%;
-        height: 40%;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        box-shadow: 10px 10px 10px hsl(212, 45%, 80%);
-      }
-      .text-box {
-        max-width: 75%;
-        text-align: center;
-        margin-bottom: 1rem;
-      }
-      .headline {
-        font-size: 15;
-        font-weight: 700;
-      }
-      .message {
-        font-size: 15;
-        font-weight: 400;
-        color: hsl(220, 15%, 55%);
-      }
-      .qr-img {
-        display: block;
-        width: 90%;
-        max-height: 100%;
-        padding: 20px;
-        border-radius: 10%;
-        object-fit: cover;
-      }
-    </style>
   </head>
   <body>
-    <div class="container">
+    <main>
       <div class="qr-container">
-        <img class="qr-img" src="images/image-qr-code.png" />
+        <img class="qr-img" src="images/image-qr-code.png" alt="QR Code" />
         <div class="text-box">
           <h3 class="headline">
             Improve your front-end skills by building projects
@@ -76,6 +29,6 @@
           </p>
         </div>
       </div>
-    </div>
+    </main>
   </body>
 </html>
