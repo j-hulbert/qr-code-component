@@ -7,8 +7,8 @@ body {
   justify-content: center;
 }
 main {
-  width: 28%;
-  height: 40%;
+  width: 20%;
+  height: 35%;
 }
 .qr-container {
   background: white;
@@ -21,8 +21,8 @@ main {
   box-shadow: 10px 10px 10px hsl(212, 45%, 80%);
 }
 .text-box {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
   text-align: center;
   margin-top: 0;
   margin-bottom: 1.25rem;
